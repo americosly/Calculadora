@@ -2,5 +2,18 @@
     height: 320px;
     width: 235px;
     border-radius: 5px;
-    background-color: red;
+    background-color: #302c2c;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
 }
+
+/* .calculator2 {
+    height: 320px;
+    width: 2350px;
+    border-radius: 5px;
+    background-color: black;
+    position: relative;
+    float: left;
+} */

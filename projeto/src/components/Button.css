@@ -1,0 +1,43 @@
+:root {
+    --bg-button: rgb(29, 28, 28);
+    --border-button: solid 1px #888;
+}
+
+.button {
+    background-color: var(--bg-button);
+    color: rgb(196, 191, 191);
+    border: none;
+    border-radius: 5px;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+    font-size: 1.5rem; 
+}
+
+.button:active{
+    background-color: rgb(88, 84, 84);
+}
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+}
+
+.button.mais:active {
+    background-color: rgb(19, 131, 19);
+}
+
+.button.menos:active {
+    background-color: rgb(179, 31, 26);
+}
+
+.button.mult:active {
+    background-color: rgb(26, 93, 180);
+}
+
+.button.div:active {
+    background-color: rgb(204, 119, 21);
+}
